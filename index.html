@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Password Generator</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon1.png">
+
+    <!-- metadata tags-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="One Page Responsive">
+    <meta name="author" content="Nathan Manning">
+    
+    <!-- Bootstrap external stylesheet-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+	<!-- CSS external stylesheet-->
+    <link href="CSS/mystyles.css" rel="stylesheet" type="text/css" media="all" />
+
+
+	<!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="section1">
+<!--  Navigation  -->
+ <script src="js/script.js"></script> 
+
+<nav class="navbar navbar-dark bg-dark">
+    <p class="navbar brand" href="#">Random Password Generator</p>
+</nav>
+
+
+    <div class="flex-container">
+    <div class="passwordtextbox">
+        <!--Password output-->
+       
+        <input type="text" id="display">
+        <button onclick="generate()">Generate</button>
+        <div id="passwordM"></div>
+        <div id="passwordB"></div>
+     
+    
+    </div>
+    </div>
+
+
+    <div class="flex-container">
+    <div class="passwordgeneratorcontrols">
+        <h1>Password slider control</h1>
+        
+        <div class="slidecontainer">
+           
+                    <br />
+                    <input type="range" min="1" max="25" name="slider" id="slider">
+                    <br />
+                    <div id="length"></div>
+                    <div class="previouspasswords">
+                        <b>Previously Generated Passwords:</b>
+                        <br />
+                        <a href="index.html" class="btn btn-default">Reset</a>
+                        <br />
+                        <div id="lastNums"></div>
+                        <p id="demo"></p>
+                    </div>
+        </div>
+          
+    </div>
+    </div>
+</div>
+
+
+    </div>
+
+
+
+
+
+<div class="section2">
+        <div class="row">
+            <div class="boxes">
+            <div class="col-sm-4">
+                <p>Do you use any of these weak passwords?
+
+                    Password
+                    123456
+                    Qwerty
+                    Your child's name
+                    I always use the same password.</p>
+            </div>
+
+            <div class="col-sm-4">
+                <p>Why are those passwords weak?
+
+                    They're easy to guess or crack. Really easy!
+                    If one of your logins is compromised, a hacker then has access to all your services</p>
+            </div>
+
+            <div class="col-sm-4">
+                <p>What's the solution?
+
+                    Generate and store strong passwords and more in Norton Password Manager.
+                    You won't have to remember multiple user names and passwords.</p>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+</body>
+</html>
+
